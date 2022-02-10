@@ -53,7 +53,7 @@ blurredImg = cv2.GaussianBlur(invertGrayImg, (21, 21), 0)
 invertBlurredImg = 255 - blurredImg
 
 # Final Result - Pencil Sketch
-pencilSketchImg = cv2.divide(imgToGray, invertBlurredImg, scale=260.0)
+pencilSketchImg = cv2.divide(imgToGray, invertBlurredImg, scale=256.0)
 
 # Show the "before" and the "after"
 cv2.imshow("Before", image)
