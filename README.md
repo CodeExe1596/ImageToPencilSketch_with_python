@@ -70,7 +70,7 @@ Select your Animal and we will make a pencil Sketch of It.
 -  lion
 -  squirrel
 -  rabbit
-What animal did you choose ?   cat # User Input
+What animal did you choose ?   dog # User Input
 
 
 Process finished with exit code 0
